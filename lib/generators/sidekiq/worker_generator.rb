@@ -50,7 +50,7 @@ module Sidekiq
       end
 
       def test_framework
-        ::Rails.application.config.generators.options[:rails][:test_framework]
+        :rspec
       end
     end
   end
